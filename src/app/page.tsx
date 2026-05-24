@@ -94,12 +94,11 @@ export default function Home() {
   </div>
 </div>
 
-<div className="relative z-10 mx-auto grid min-h-[650px] max-w-[1300px] grid-cols-1 items-center gap-4 px-6 md:grid-cols-[.9fr_1.1fr]">
+<div className="relative flex h-[700px] items-end justify-end">
   <img
     src="/assets/hero/group.png"
     alt="Gym Stars athletes"
-    className="h-[175%] w-auto max-w-none object-contain"
-  />
+    className="absolute right-[-370px] bottom-[-425px] h-[225%] w-auto max-w-none"  />
 </div>
         </div>
       </section>
